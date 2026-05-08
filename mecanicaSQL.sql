@@ -90,7 +90,7 @@ INSERT INTO Mecanicos (id_mecanico, nome, especialidade) VALUES
 (1, 'Roberto', 'Motores'), (2, 'Marcos', 'Suspensão'), (3, 'Aline', 'Elétrica'), (4, 'Sérgio', 'Motores'),
 (5, 'Cláudio', 'Freios'), (6, 'Fábio', 'Alinhamento'), (7, 'Paula', 'Injeção Eletrônica'), (8, 'Márcio', 'Suspensão'),
 (9, 'Renato', 'Câmbio'), (10, 'Patrícia', 'Ar Condicionado'), (11, 'Jorge', 'Motores'), (12, 'Sônia', 'Elétrica'),
-(13, 'Bruno', 'Pintura'), (14, 'Carlos', 'Lanternagem'), (15, 'Davi', 'Motores'), (16, 'Eduardo', 'Suspensão'),
+(13, 'Bruno', 'Pintura'), (14, 'Carlos', 'Lanternagem'), (16, 'Davi', 'Motores'), (16, 'Eduardo', 'Suspensão'),
 (17, 'Flávia', 'Elétrica'), (18, 'Gilberto', 'Freios'), (19, 'Hugo', 'Motores'), (20, 'Ítalo', 'Injeção Eletrônica'),
 (21, 'Jair', 'Câmbio'), (22, 'Kelly', 'Motores'), (23, 'Luís', 'Elétrica'), (24, 'Marta', 'Suspensão'), (25, 'Nilson', 'Freios'),
 (26, 'Otávio', 'Motores'), (27, 'Pedro', 'Injeção Eletrônica'), (28, 'Quiteria', 'Elétrica'), (29, 'Ronaldo', 'Suspensão'), (30, 'Sandra', 'Ar Condicionado'),
