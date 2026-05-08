@@ -153,24 +153,6 @@ HAVING SUM(os.valor_total) > (
 ORDER BY Total_Gasto DESC;
 ```
 
----
-
-## ⚠️ Observações e Correções Necessárias
-
-> Alguns pontos do script original precisam de atenção antes de rodar em produção:
-
-1. **`ALTER TABLE` antes do `CREATE TABLE`** — o `ALTER TABLE itens_servicos ADD COLUMN quantidade` aparece antes da criação da tabela. Mova-o para depois do `CREATE TABLE itens_servicos`.
-
-2. **Nome de tabela inconsistente nas queries** — as queries usam `item_servicos` (sem o "s"), mas a tabela criada se chama `itens_servicos`. Corrija para `itens_servicos`.
-
-3. **Nome da coluna `stats` vs `status`** — a coluna foi criada como `stats`, mas uma das queries usa `os.status`. Padronize para um único nome (recomendado: `status`).
-
-4. **Tipo da coluna `ano`** — está como `VARCHAR(4)`, o que funciona, mas considere usar `SMALLINT UNSIGNED` para consultas numéricas (ex: filtrar veículos após 2018).
-
----
-
-## 🚀 Como Usar
-
 ```sql
 -- 1. Criar e selecionar o banco
 CREATE DATABASE OficinaMecanica;
